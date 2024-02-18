@@ -145,6 +145,8 @@ nav a:focus {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
   gap: 15px;
+  justify-content: center;
+
 }
 
 /* Step 5: Write selector/rule property to add the background image to the 
@@ -157,6 +159,7 @@ first div in the grid  and place it in the grid. */
   background-attachment: fixed;
 }
 
+
 /* For parallax effect, though this may not behave as expected without JavaScript */
 
 
@@ -168,6 +171,7 @@ first div in the grid  and place it in the grid. */
   grid-column: 2 / span 1;
   grid-row: 2;
   align-self: center;
+  margin:auto;
 }
 
 .method {
@@ -180,12 +184,16 @@ first div in the grid  and place it in the grid. */
   grid-column: 2 / span 1;
   grid-row: 4;
   align-self: center;
+  margin:auto;
+
 }
 
 .contact {
   grid-column: 2 / span 1;
   grid-row: 5;
   align-self: center;
+  margin:auto;
+
 }
 
 
@@ -217,7 +225,6 @@ first div in the grid  and place it in the grid. */
 /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block {
   /* display: flex; */
-  justify-content: center;
   align-items: center;
   text-align: center;
 }
